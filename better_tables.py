@@ -20,9 +20,9 @@ This adds support for table borders and other features.
 
 from __future__ import absolute_import
 from __future__ import unicode_literals
-from . import Extension
-from ..blockprocessors import BlockProcessor
-from ..util import etree
+from markdown import Extension
+from markdown.blockprocessors import BlockProcessor
+from markdown.util import etree
 
 
 class BetterTableProcessor(BlockProcessor):
